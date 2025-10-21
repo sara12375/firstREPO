@@ -1,0 +1,21 @@
+When implementing a findAllDuplicates() method for an Array in Java that returns all elements appearing more than once, you need to analyze the theoretical time complexity limits. Which of the following statements accurately describes the time complexity analysis for this operation?
+
+
+
+Select only the answers which you are confident in. Wrong answer choices will lead to mark deduction that will not lead your question score to go below 0. 
+
+Option A
+The most efficient findAllDuplicates() implementation would have O(n) time complexity, where n is the number of elements in the Array.
+
+Option B
+An efficient findAllDuplicates() implementation can achieve O(log n) time complexity using sorted array properties.
+
+Option C
+Without auxiliary data structures, the operation requires O(n^2)
+
+Option D
+Achieving O(1) time complexity is possible by pre-computing and storing duplicate information in the array structure.
+
+Option E
+Achieving O(1) time complexity is theoretically impossible because identifying duplicates requires examining each element at least once.
+
